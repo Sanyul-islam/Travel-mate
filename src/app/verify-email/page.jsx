@@ -117,8 +117,7 @@ function VerifyEmailContent() {
                 type="text"
                 value={token}
                 onChange={(e) => setToken(e.target.value)}
-                placeholder="Paste verification token here..."
-                className="w-full rounded-xl border border-slate-200 bg-slate-50/50 px-3.5 py-2.5 text-sm text-slate-900 outline-none focus:border-blue-600 focus:bg-white focus:ring-2 focus:ring-blue-100 dark:border-slate-800 dark:bg-slate-800 dark:text-white dark:focus:border-blue-500 transition-all text-center font-mono"
+                className="w-full rounded-xl border border-slate-300 bg-slate-50 px-3.5 py-2.5 text-sm text-black font-medium outline-none focus:border-blue-600 focus:bg-slate-50 focus:ring-2 focus:ring-blue-100 placeholder:text-slate-400 transition-all text-center font-mono"
               />
             </div>
             <button

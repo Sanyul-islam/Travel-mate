@@ -138,14 +138,14 @@ export default function RegisterPage() {
                     onChange={(e) => setName(e.target.value)}
                     placeholder="Jane Traveler"
                     required
-                    className="w-full rounded-xl border border-slate-200 bg-slate-50/50 pl-10 pr-3.5 py-2.5 text-sm text-slate-900 outline-none focus:border-blue-600 focus:bg-white focus:ring-2 focus:ring-blue-100 dark:border-slate-800 dark:bg-slate-800 dark:text-white dark:focus:border-blue-500 transition-all"
+                    className="w-full rounded-xl border border-slate-300 bg-slate-50 pl-10 pr-3.5 py-2.5 text-sm text-black font-medium outline-none focus:border-blue-600 focus:bg-slate-50 focus:ring-2 focus:ring-blue-100 placeholder:text-slate-400 transition-all"
                   />
                 </div>
               </div>
 
               {/* Email */}
               <div>
-                <label className="block text-xs font-semibold uppercase tracking-wider text-slate-600 dark:text-slate-300 mb-1.5">
+                <label className="block text-xs font-semibold uppercase tracking-wider text-slate-600 mb-1.5">
                   Email Address
                 </label>
                 <div className="relative">
@@ -158,14 +158,14 @@ export default function RegisterPage() {
                     onChange={(e) => setEmail(e.target.value)}
                     placeholder="traveler@example.com"
                     required
-                    className="w-full rounded-xl border border-slate-200 bg-slate-50/50 pl-10 pr-3.5 py-2.5 text-sm text-slate-900 outline-none focus:border-blue-600 focus:bg-white focus:ring-2 focus:ring-blue-100 dark:border-slate-800 dark:bg-slate-800 dark:text-white dark:focus:border-blue-500 transition-all"
+                    className="w-full rounded-xl border border-slate-300 bg-slate-50 pl-10 pr-3.5 py-2.5 text-sm text-black font-medium outline-none focus:border-blue-600 focus:bg-slate-50 focus:ring-2 focus:ring-blue-100 placeholder:text-slate-400 transition-all"
                   />
                 </div>
               </div>
 
               {/* Password */}
               <div>
-                <label className="block text-xs font-semibold uppercase tracking-wider text-slate-600 dark:text-slate-300 mb-1.5">
+                <label className="block text-xs font-semibold uppercase tracking-wider text-slate-600 mb-1.5">
                   Password
                 </label>
                 <div className="relative">
@@ -179,7 +179,7 @@ export default function RegisterPage() {
                     placeholder="Min 6 characters"
                     minLength={6}
                     required
-                    className="w-full rounded-xl border border-slate-200 bg-slate-50/50 pl-10 pr-3.5 py-2.5 text-sm text-slate-900 outline-none focus:border-blue-600 focus:bg-white focus:ring-2 focus:ring-blue-100 dark:border-slate-800 dark:bg-slate-800 dark:text-white dark:focus:border-blue-500 transition-all"
+                    className="w-full rounded-xl border border-slate-300 bg-slate-50 pl-10 pr-3.5 py-2.5 text-sm text-black font-medium outline-none focus:border-blue-600 focus:bg-slate-50 focus:ring-2 focus:ring-blue-100 placeholder:text-slate-400 transition-all"
                   />
                 </div>
               </div>

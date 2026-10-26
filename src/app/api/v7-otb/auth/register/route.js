@@ -72,6 +72,12 @@ export async function POST(request) {
     );
   } catch (error) {
     console.error("Register error:", error);
-    return apiError("An unexpected error occurred during registration.", 500);
+    if (error.name === "MongooseServerSelectionError" || error.message?.includes("ECONNREFUSED")) {
+      return apiError(
+        "Database connection error. Please ensure MongoDB is running or configure MONGODB_URI in .env.local.",
+        503
+      );
+    }
+    return apiError(error.message || "An unexpected error occurred during registration.", 500);
   }
 }

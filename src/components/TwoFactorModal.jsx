@@ -177,8 +177,7 @@ export default function TwoFactorModal({ isOpen, onClose, onSuccess }) {
                   maxLength={6}
                   value={code}
                   onChange={(e) => setCode(e.target.value.replace(/\D/g, ""))}
-                  placeholder="123456"
-                  className="w-full text-center tracking-[0.5em] font-mono text-xl font-bold py-2.5 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 text-slate-900 dark:text-white outline-none focus:border-blue-600 focus:ring-2 focus:ring-blue-100"
+                  className="w-full text-center tracking-[0.5em] font-mono text-xl font-bold py-2.5 rounded-xl border border-slate-300 bg-slate-50 text-black outline-none focus:border-blue-600 focus:bg-slate-50 focus:ring-2 focus:ring-blue-100"
                   autoFocus
                 />
                 <button

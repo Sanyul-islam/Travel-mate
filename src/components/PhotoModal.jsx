@@ -202,13 +202,13 @@ export default function PhotoModal({ isOpen, onClose, onSave, initialData = null
               placeholder="e.g. Sunset over Santorini Caldera"
               maxLength={120}
               required
-              className="w-full rounded-xl border border-slate-200 bg-slate-50/50 px-3.5 py-2.5 text-sm text-slate-900 outline-none focus:border-blue-600 focus:bg-white focus:ring-2 focus:ring-blue-100 dark:border-slate-800 dark:bg-slate-800 dark:text-white dark:focus:border-blue-500 transition-all"
+              className="w-full rounded-xl border border-slate-300 bg-slate-50 px-3.5 py-2.5 text-sm text-black font-medium outline-none focus:border-blue-600 focus:bg-slate-50 focus:ring-2 focus:ring-blue-100 placeholder:text-slate-400 transition-all"
             />
           </div>
 
           {/* Location */}
           <div>
-            <label className="flex items-center gap-1.5 text-xs font-semibold uppercase tracking-wider text-slate-600 dark:text-slate-300 mb-1.5">
+            <label className="flex items-center gap-1.5 text-xs font-semibold uppercase tracking-wider text-slate-600 mb-1.5">
               <MapPin className="h-3.5 w-3.5 text-blue-600" />
               <span>Location</span>
             </label>
@@ -219,13 +219,13 @@ export default function PhotoModal({ isOpen, onClose, onSave, initialData = null
               placeholder="e.g. Oia, Santorini, Greece"
               maxLength={150}
               required
-              className="w-full rounded-xl border border-slate-200 bg-slate-50/50 px-3.5 py-2.5 text-sm text-slate-900 outline-none focus:border-blue-600 focus:bg-white focus:ring-2 focus:ring-blue-100 dark:border-slate-800 dark:bg-slate-800 dark:text-white dark:focus:border-blue-500 transition-all"
+              className="w-full rounded-xl border border-slate-300 bg-slate-50 px-3.5 py-2.5 text-sm text-black font-medium outline-none focus:border-blue-600 focus:bg-slate-50 focus:ring-2 focus:ring-blue-100 placeholder:text-slate-400 transition-all"
             />
           </div>
 
           {/* Description */}
           <div>
-            <label className="flex items-center gap-1.5 text-xs font-semibold uppercase tracking-wider text-slate-600 dark:text-slate-300 mb-1.5">
+            <label className="flex items-center gap-1.5 text-xs font-semibold uppercase tracking-wider text-slate-600 mb-1.5">
               <AlignLeft className="h-3.5 w-3.5 text-blue-600" />
               <span>Description</span>
             </label>
@@ -235,7 +235,7 @@ export default function PhotoModal({ isOpen, onClose, onSave, initialData = null
               placeholder="Describe your journey, the atmosphere, emotions, and hidden details..."
               rows={4}
               required
-              className="w-full rounded-xl border border-slate-200 bg-slate-50/50 p-3 text-sm text-slate-900 outline-none focus:border-blue-600 focus:bg-white focus:ring-2 focus:ring-blue-100 dark:border-slate-800 dark:bg-slate-800 dark:text-white dark:focus:border-blue-500 transition-all"
+              className="w-full rounded-xl border border-slate-300 bg-slate-50 p-3 text-sm text-black font-medium outline-none focus:border-blue-600 focus:bg-slate-50 focus:ring-2 focus:ring-blue-100 placeholder:text-slate-400 transition-all"
             />
           </div>
 

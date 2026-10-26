@@ -211,7 +211,7 @@ export default function SettingsPage() {
                         onChange={(e) => setDisablePassword(e.target.value)}
                         placeholder="Your password"
                         required
-                        className="w-full rounded-xl border border-slate-200 bg-slate-50 px-3.5 py-2 text-xs text-slate-900 outline-none focus:border-blue-600 dark:border-slate-700 dark:bg-slate-800 dark:text-white"
+                        className="w-full rounded-xl border border-slate-300 bg-slate-50 px-3.5 py-2 text-xs text-black font-medium outline-none focus:border-blue-600 focus:bg-slate-50 focus:ring-2 focus:ring-blue-100 placeholder:text-slate-400"
                       />
                       <div className="flex items-center gap-2">
                         <button

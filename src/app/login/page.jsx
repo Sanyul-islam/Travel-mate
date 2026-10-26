@@ -146,7 +146,7 @@ export default function LoginPage() {
                   onChange={(e) => setTotpCode(e.target.value.replace(/\D/g, ""))}
                   placeholder="000000"
                   autoFocus
-                  className="w-full text-center tracking-[0.6em] font-mono text-2xl font-bold py-3 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 text-slate-900 dark:text-white outline-none focus:border-blue-600 focus:ring-2 focus:ring-blue-100"
+                  className="w-full text-center tracking-[0.6em] font-mono text-2xl font-bold py-3 rounded-xl border border-slate-300 bg-slate-50 text-black outline-none focus:border-blue-600 focus:bg-slate-50 focus:ring-2 focus:ring-blue-100"
                 />
               </div>
 
@@ -186,7 +186,7 @@ export default function LoginPage() {
             /* Email & Password Step */
             <form onSubmit={handleInitialLogin} className="space-y-4">
               <div>
-                <label className="block text-xs font-semibold uppercase tracking-wider text-slate-600 dark:text-slate-300 mb-1.5">
+                <label className="block text-xs font-semibold uppercase tracking-wider text-slate-600 mb-1.5">
                   Email Address
                 </label>
                 <div className="relative">
@@ -199,13 +199,13 @@ export default function LoginPage() {
                     onChange={(e) => setEmail(e.target.value)}
                     placeholder="traveler@example.com"
                     required
-                    className="w-full rounded-xl border border-slate-200 bg-slate-50/50 pl-10 pr-3.5 py-2.5 text-sm text-slate-900 outline-none focus:border-blue-600 focus:bg-white focus:ring-2 focus:ring-blue-100 dark:border-slate-800 dark:bg-slate-800 dark:text-white dark:focus:border-blue-500 transition-all"
+                    className="w-full rounded-xl border border-slate-300 bg-slate-50 pl-10 pr-3.5 py-2.5 text-sm text-black font-medium outline-none focus:border-blue-600 focus:bg-slate-50 focus:ring-2 focus:ring-blue-100 placeholder:text-slate-400 transition-all"
                   />
                 </div>
               </div>
 
               <div>
-                <label className="block text-xs font-semibold uppercase tracking-wider text-slate-600 dark:text-slate-300 mb-1.5">
+                <label className="block text-xs font-semibold uppercase tracking-wider text-slate-600 mb-1.5">
                   Password
                 </label>
                 <div className="relative">
@@ -218,7 +218,7 @@ export default function LoginPage() {
                     onChange={(e) => setPassword(e.target.value)}
                     placeholder="Enter your password"
                     required
-                    className="w-full rounded-xl border border-slate-200 bg-slate-50/50 pl-10 pr-3.5 py-2.5 text-sm text-slate-900 outline-none focus:border-blue-600 focus:bg-white focus:ring-2 focus:ring-blue-100 dark:border-slate-800 dark:bg-slate-800 dark:text-white dark:focus:border-blue-500 transition-all"
+                    className="w-full rounded-xl border border-slate-300 bg-slate-50 pl-10 pr-3.5 py-2.5 text-sm text-black font-medium outline-none focus:border-blue-600 focus:bg-slate-50 focus:ring-2 focus:ring-blue-100 placeholder:text-slate-400 transition-all"
                   />
                 </div>
               </div>
