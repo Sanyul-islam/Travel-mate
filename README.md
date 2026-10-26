@@ -23,7 +23,7 @@ OrbitTrail is a full-stack web application designed for travelers to securely re
 ### Why This Stack?
 1. **Unified Full-Stack Architecture:** Next.js App Router eliminates the artificial barrier between backend APIs and client interfaces. Both the robust REST APIs (under `/api/v7-otb/`) and the client UI run in a cohesive, performant Node.js environment with optimized edge/serverless capabilities.
 2. **Flexible Document Storage with Mongoose:** Travel photo entries (`voyage_log`) and user identities naturally fit MongoDB document models. Mongoose provides schema validation, indexing, and connection pooling across serverless executions.
-3. **Stateless Scalability:** JWT-based access sessions allow the application to scale horizontally across serverless runtimes (e.g., Vercel, AWS Lambda, Docker) while keeping sensitive credentials secure.
+3. **Stateless Scalability:** JWT-based access sessions allow the application to scale horizontally across serverless runtimes (e.g., Vercel, AWS Lambda) while keeping sensitive credentials secure.
 
 ---
 
@@ -133,18 +133,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ---
 
-## 6. Docker Deployment (Bonus)
-
-To run the full stack (application + MongoDB) using Docker:
-
-```bash
-docker compose up --build
-```
-The app will be available on [http://localhost:3000](http://localhost:3000).
-
----
-
-## 7. Production Deployment (Vercel)
+## 6. Production Deployment (Vercel)
 
 1. Push code to your Git repository.
 2. Import the project into [Vercel](https://vercel.com).
@@ -160,7 +149,7 @@ The app will be available on [http://localhost:3000](http://localhost:3000).
 
 ---
 
-## 8. What I Would Improve With More Time
+## 7. What I Would Improve With More Time
 
 1. **Map View & Geo-tagging:** Integrate Mapbox or Leaflet to visualize personal travel memories geographically on an interactive world map.
 2. **Batch Uploading:** Allow travelers to upload entire trip albums at once with background AI summarization queues.
